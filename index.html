@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ISYSLIDER DEMO</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div id="my_carousel">
+            <a href="#"><img src="http://lorempixel.com/500/270/fashion/1" alt="" /></a>
+            <a href="#"><img src="http://lorempixel.com/500/270/fashion/2" alt="" /></a>
+            <a href="#"><img src="http://lorempixel.com/500/270/fashion/3" alt="" /></a>
+            <a href="#"><img src="http://lorempixel.com/500/270/fashion/4" alt="" /></a>
+            <a href="#"><img src="http://lorempixel.com/500/270/fashion/5" alt="" /></a>
+            <a href="#"><img src="http://lorempixel.com/500/270/fashion/6" alt="" /></a>
+            <a href="#"><img src="http://lorempixel.com/500/270/fashion/7" alt="" /></a>
+            <a href="#"><img src="http://lorempixel.com/500/270/fashion/8" alt="" /></a>            
+        </div>
+        <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+        <script type="text/javascript" src="js/isyslider.js"></script>
+        <script type="text/javascript">
+           $(document).ready(function(){
+             $('#my_carousel').isyslider({
+                 thumb_width: 500,
+                 thumb_height: 250,
+                 elements: 2,
+                 margin: 5,
+                 controls: 'absolute'
+             });
+           });           
+        </script>
+    </body>
+</html>

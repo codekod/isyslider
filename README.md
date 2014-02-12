@@ -9,7 +9,12 @@ Basic slider css ready with options:
           thumb_height: 100,
           elements: 5,
           margin: 5,
-          controls: 'absolute'
+          controls: 'absolute' // or relative
       });
     });
 
+Or by default:
+
+    $(document).ready(function(){
+      $('#id').isyslider();
+    });

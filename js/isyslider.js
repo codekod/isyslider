@@ -51,6 +51,7 @@
             }
             wrapper.css({'float':'left', 'width':'' + wd + 'px', 'z-index':'1', 'height':'' + h + 'px', 'position':'relative', 'overflow':'hidden'});
             slider.css({'left': '-' + (w + m) + 'px', 'top':'0', 'width':'' + sw + 'px', 'height':'' + h + 'px', 'position':'absolute', 'overflow':'hidden'});
+ 
             // functions
             prev.click(function() {
                     var indent = parseInt(slider.css('left')) + target.outerWidth();

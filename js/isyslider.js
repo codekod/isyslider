@@ -9,7 +9,7 @@
                 thumb_height: 190,
                 elements: 3,
                 margin: 0,
-                controls: 'relative'
+                controls: 'relative' //or absolute
             };
             
             //options
@@ -21,7 +21,7 @@
                 m = settings.margin,
                 c = settings.controls;
             
-            // structure and gfx
+            // structure and gfx with css inline, edit or override in stylesheet
             var main = $(this);
             var target = $(this).children();
             target.first().before(target.last());

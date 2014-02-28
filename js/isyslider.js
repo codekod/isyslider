@@ -9,7 +9,7 @@
                 thumb_height: 190,
                 elements: 3,
                 margin: 0,
-                controls: 'relative' //or absolute
+                controls: 'relative' //or absolute with arrow overlay
             };
             
             //options

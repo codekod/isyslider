@@ -34,12 +34,12 @@
             target.css({'text-align':'center','margin':'0 ' + m + 'px 0 0', 'float':'left', 'display':'block', 'width':'' + w + 'px', 'height':'' + h + 'px'});
             wrapper.parent().prepend('<div class="' + cls + '_prev">‹</div>');
             wrapper.parent().append('<div class="' + cls + '_next">›</div>');
-            var prev = main.children().first();
-            var next = main.children().last();  
-            var wd = (n * m) + (n * w);
-            var sw = (tl * w) + (tl * m);
-            var tw = target.outerWidth() * (-1);
-            var rw = (w * n) + (m * n) + 80;
+            var prev = main.children().first(),
+                next = main.children().last(),
+                wd = (n * m) + (n * w),
+                sw = (tl * w) + (tl * m),
+                tw = target.outerWidth() * (-1),
+                rw = (w * n) + (m * n) + 80;
             if (c === 'relative') {
                 main.css({'width':'' + rw + 'px', 'height':'' + h + 'px', 'overflow':'hidden'});                
                 prev.css({'font-size':'22px','width':'40px', 'height':'' + h + 'px', 'text-align':'center', 'line-height':'' + h + 'px', 'cursor':'pointer', 'float':'left', 'overflow':'hidden'});

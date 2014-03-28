@@ -1,7 +1,7 @@
 ;(function($, window, document ) {
     
     $.fn.isyslider = function(options) {
-        return this.each( function(index, item) {
+        return this.each(function(index, item) {
             
             //defaults
             var defaults = {
